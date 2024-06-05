@@ -1,0 +1,32 @@
+1. nyalakan xampp apache dan mysql
+2. buka sql yog dan ketik
+
+CREATE DATABASE db_kelas;
+
+USE db_kelas;
+
+-- Membuat tabel kelas_a
+CREATE TABLE kelas_a (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jabatan VARCHAR(50),
+    nama VARCHAR(50),
+    no_induk VARCHAR(20)
+);
+
+CREATE TABLE kelas_b (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jabatan VARCHAR(50),
+    nama VARCHAR(50),
+    no_induk VARCHAR(20)
+);
+
+CREATE TABLE kelas_c (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jabatan VARCHAR(50),
+    nama VARCHAR(50),
+    no_induk VARCHAR(20)
+);
+
+run querynya satu satu agar muncul db_kelas dan tabel kelas_a, kelas_b, kelas_c
+
+masukan file semua ini ke htdocs atau jalankan melalui php server lain.
